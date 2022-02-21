@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+        Button Click
+    </title>
+</head>
+
+<body>
+    <div class="topnav">
+        Flagship Assessment
+    </div>
+    <div class="align-items-center justify-content-center row vh-100">
+        <div class="col-12 col-md-4">
+            <div class="mb-5">
+                <label for="zone">Choose your Color</label>
+                <select name="zone" id="zone">
+          <option value="Red">Red</option>
+          <option value="Blue">Blue</option>
+          
+        </select>
+            </div>
+            <div class="text-center my-3 d-none" id="login-or">or</div>
+            <button class="btn btn-primary" type="submit" id="btn">Start</button>
+
+            <button class="btn btn-primary" id="google-login">Google</button>
+            <button class="btn btn-primary" id="wechat-btn">Wechat</button>
+
+            <div class="footer">
+                Made By Veedit Parikh
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://unpkg.com/@flagship.io/js-sdk@beta/dist/index.browser.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
